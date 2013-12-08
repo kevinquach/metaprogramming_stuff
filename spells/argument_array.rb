@@ -1,3 +1,5 @@
+# Collapse a list of arguments into an array.
+
 def my_method(*args)
   args.map {|arg| arg.reverse}
 end

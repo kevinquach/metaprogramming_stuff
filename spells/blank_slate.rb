@@ -1,3 +1,5 @@
+# Remove methods from an object to turn them into Ghost Methods
+#
 class C
   def method_missing(name, *args)
     "a Ghost Method"

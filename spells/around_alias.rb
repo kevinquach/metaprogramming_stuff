@@ -1,3 +1,5 @@
+# Call the previous, aliased version of a method from a redefined method
+#
 class String
   alias :old_reverse :reverse
 
